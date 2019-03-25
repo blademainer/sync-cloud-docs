@@ -17,6 +17,7 @@ install:
 - git config --global user.name "blademainer"
 - git config --global user.email "blademainer@gmail.com"
 - sed -i "s/GH_TOKEN/${GH_TOKEN}/g" ./mkdocs.yml
+- cat ~/.ssh/id_rsa
 - "./mkdocs-publish.sh"
 env:
   global:

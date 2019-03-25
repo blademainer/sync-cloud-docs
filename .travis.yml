@@ -5,6 +5,8 @@ sudo: required
 branches:
   only:
   - master
+before_install:
+  - chmod +x *.sh
 install:
 - openssl aes-256-cbc -K $encrypted_12c8071d2874_key -iv $encrypted_12c8071d2874_iv
   -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d

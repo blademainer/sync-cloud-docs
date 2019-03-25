@@ -3,7 +3,7 @@ site_url: https://rafts.cloud
 site_description: Distributed pay system.
 site_author: SyncCloud
 
-repo_url: git@github.com:blademainer/sync-cloud-docs.git
+repo_url: https://github.com/blademainer/sync-cloud-docs.git
 
 copyright: Copyright &copy; 2019 <a href="https://rafts.cloud">rafts.cloud</a>.
 

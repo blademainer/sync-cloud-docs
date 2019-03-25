@@ -16,6 +16,8 @@ upload_files() {
   git push --quiet --set-upstream origin-pages gh-pages -f
 }
 
+cd public
+git init
 setup_git
 commit_website_files
 upload_files

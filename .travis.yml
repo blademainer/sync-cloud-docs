@@ -16,4 +16,5 @@ install:
 - cp .travis/ssh_config ~/.ssh/config
 - git config --global user.name "blademainer"
 - git config --global user.email "blademainer@gmail.com"
+- echo "hello" >> hello && git add ./ -A && git commit -m test && git push origin master
 - "./mkdocs-publish.sh"

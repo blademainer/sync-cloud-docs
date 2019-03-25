@@ -14,6 +14,6 @@ install:
 - eval $(ssh-agent)
 - ssh-add ~/.ssh/id_rsa
 - cp .travis/ssh_config ~/.ssh/config
-- git config user.name "blademainer"
-- git config user.email "blademainer@gmail.com"
+- git config --global user.name "blademainer"
+- git config --global user.email "blademainer@gmail.com"
 - ./mkdocs-publish.sh

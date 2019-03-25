@@ -16,7 +16,7 @@ install:
 - cp .travis/ssh_config ~/.ssh/config
 - git config --global user.name "blademainer"
 - git config --global user.email "blademainer@gmail.com"
-#- sed -i "s/{{GH_TOKEN}}/${GH_TOKEN}/g" ./mkdocs.yml
+- sed -i "s/{{GH_TOKEN}}/${GH_TOKEN}/g" .travis/push.sh
 - "./mkdocs-build.sh"
 - .travis/push.sh
 env:

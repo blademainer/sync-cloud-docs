@@ -60,7 +60,7 @@ markdown_extensions:
         clickable_checkbox: false
     - pymdownx.tilde
     - sane_lists
-    - plantuml
+    - plantuml-markdown
     - pymdownx.arithmatex
 #    - plantuml-markdown
 #    - pymdown.plantuml

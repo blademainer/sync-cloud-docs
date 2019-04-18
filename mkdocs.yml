@@ -21,6 +21,9 @@ theme:
 
 nav:
     - Home: index.md
+    - Design:
+      - Deploy: design/deploy.md
+      - Communication: design/communication.md
 
 plugins:
     - search

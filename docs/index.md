@@ -1,2 +1,6 @@
 # Sync Cloud
-Hello!
+Your own cloud!
+
+- Easily
+- Efficient
+- Distributed

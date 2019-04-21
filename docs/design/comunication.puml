@@ -72,5 +72,4 @@ transfer1 <--> transfer2
 transfer2 <--> transfer3
 transfer1 <--> transfer3
 
-
 @enduml
